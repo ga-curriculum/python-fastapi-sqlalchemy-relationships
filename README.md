@@ -1,21 +1,23 @@
 <h1>
-  <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="prefix">Python</span>
+  <span class="headline">FastAPI SQLAlchemy Relationships</span>
 </h1>
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+In this curriculum, you'll extend your knowledge of SQLAlchemy. First by exploring relational data modeling, then you'll define base and comment models, establishing relationships between resources. Through model and seed module refactors, you'll refine your database design and seed data for your application.
 
 ## Content
 
-| Lesson | Est. Delivery Time | Skills |
-| ------ |:------------------:| ------ |
-| [Setup](./setup/README.md)                          | -- | Set up the development environment. |
-| [Concepts](./concepts/README.md)                    | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-01/README.md) | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills to cover                |
-| **Total content**                                   | -- |                                     |
+| Lesson                                                                 | Est. Delivery Time | Skills                                                                                 |
+| ---------------------------------------------------------------------- | :----------------: | -------------------------------------------------------------------------------------- |
+| [Setup](./setup/README.md)                                             |       5 min        | Set up the development environment.                                                    |
+| [Concepts](./concepts/README.md)                                       |       5 min        | Understand and differentiate **One-to-Many** and **Many-to-Many** data relationships.  |
+| [Defining a Base Model](./defining-a-base-model/README.md)             |       10 min       | Create a reusable **base model class** for SQLAlchemy to centralize common attributes. |
+| [Defining a Comments Model](./defining-a-comments-model/README.md)     |       10 min       | Define a related SQLAlchemy `model` class to represent and manage comments data.       |
+| [Update Model Data Relations](./update-model-data-relations/README.md) |       10 min       | Establish and manage **relationships** between SQLAlchemy models.                      |
+| [Update Seed Module](./update-seed-model/README.md)                    |       15 min       | Modify the seed module to populate the database with related data.                     |
+| **Total content**                                                      |       55 min       |                                                                                        |
 
 ## References
 
@@ -25,32 +27,17 @@ tktk Write a short but descriptive summary of the content in this module.
 
 ### Prerequisites
 
-- tktk
-- tktk
-- tktk
+- Python FastAPI MVC CRUD Build
+- Python FastAPI SQLAlchemy Models
 
 ### Starter code
 
-tktk If there is not a starter code repo that students will use to start this lesson, then this section and all of its content should be removed.
-
 🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Solution code
-
-tktk If there is not solution code related to this module this section and all of its content should be removed.
-
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Deployed site
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](https://generalassemb.ly/tktk)
 
 ### Course landing pages
 
-- [tktk-course-acronym - tktk Course Full Name](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/tktk-course-acronym.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/fallback.html)
+- [APD - Advanced Python for Developers](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-sqlalchemy-relationships/canvas-landing-pages/apd.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-sqlalchemy-relationships/canvas-landing-pages/fallback.html)
 
 ### Resources
 

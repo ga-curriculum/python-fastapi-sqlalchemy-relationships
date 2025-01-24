@@ -16,16 +16,30 @@ concepts = new Template.Microlesson {
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+definingBaseModel = new Template.Microlesson {
+  friendlyName = "Defining a Base Model"
+  dirName = "defining-a-base-model"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+definingCommentsModel = new Template.Microlesson {
+  friendlyName = "Defining a Comments Model"
+  dirName = "defining-a-comments-model"
+  type = "Content"
+  videoUrl = ""
+}
+
+updateModelDataRelations = new Template.Microlesson {
+  friendlyName = "Update Model Data Relations"
+  dirName = "update-model-data-relations"
+  type = "Content"
+  videoUrl = ""
+}
+
+updateSeedModule = new Template.Microlesson {
+  friendlyName = "Update Seed Module"
+  dirName = "update-seed-model"
   type = "Content"
   videoUrl = ""
 }
