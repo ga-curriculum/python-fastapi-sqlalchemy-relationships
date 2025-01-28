@@ -32,11 +32,11 @@ teas_list = [
 # List of comments related to teas
 # Each comment is associated with a tea using the tea_id
 comments_list = [
-    CommentModel(content="This is a great tea", tea_id=1),  # Associated with 'chai'
-    CommentModel(content="Perfect for relaxing evenings", tea_id=2),  # Associated with 'earl grey'
-    CommentModel(content="I love the vibrant green color!", tea_id=3),  # Associated with 'matcha'
-    CommentModel(content="So refreshing and healthy!", tea_id=4),  # Associated with 'green tea'
-    CommentModel(content="A classic choice for any time of day", tea_id=5)  # Associated with 'black tea'
+    CommentModel(content="This is a great tea", tea_id=1),
+    CommentModel(content="Perfect for relaxing evenings", tea_id=2),
+    CommentModel(content="I love the vibrant green color!", tea_id=3),
+    CommentModel(content="So refreshing and healthy!", tea_id=4),
+    CommentModel(content="A classic choice for any time of day", tea_id=5)
 ]
 ```
 
@@ -54,7 +54,6 @@ from data.tea_data import teas_list, comments_list
 from config.environment import db_URI
 from sqlalchemy import create_engine
 
-# Create a database engine and session
 engine = create_engine(db_URI)
 SessionLocal = sessionmaker(bind=engine)
 
