@@ -36,6 +36,10 @@ If you have a complete, working application from the `Python FastAPI SQLAlchemy 
 
 🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-sqlalchemy-models-solution)
 
+### Solution code
+
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-sqlalchemy-relationships-solution)
+
 ### Course landing pages
 
 - [APD - Advanced Python for Developers](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-sqlalchemy-relationships/canvas-landing-pages/apd.html)
