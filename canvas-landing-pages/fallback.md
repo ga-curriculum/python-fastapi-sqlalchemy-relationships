@@ -6,7 +6,7 @@
 
 ## About
 
-In this curriculum, you'll extend your knowledge of SQLAlchemy. First by exploring relational data modeling, then you'll define base and comment models, establishing relationships between resources. Through model and seed module refactors, you'll refine your database design and seed data for your application.
+In this curriculum, you'll extend your knowledge of SQLAlchemy. First by exploring relational data modeling, then you'll define base and comment models, establishing relationships between these resources. Through model and seed module refactors, you'll refine your database design and seed new data for your application.
 
 ## Content
 

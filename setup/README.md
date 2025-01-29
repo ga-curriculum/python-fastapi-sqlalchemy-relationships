@@ -5,37 +5,74 @@
 
 ## Setup
 
-Open your Terminal application and navigate to your **`~/development/lessons`** directory:
+In this lesson, we’ll start by working with a pre-existing application that utilizes a PostgreSQL database instance, SQLAlchemy model and a database seeded with initial data.
+
+> If you have a complete, working application from the `Python FastAPI SQLAlchemy Models` Lesson, you may choose to use that codebase as starter code instead of the repo provided below.
+
+### 1. Clone the starter code
+
+We’ve provided a starter repository with the base application code. Clone the repository to your local machine and rename the folder for this lesson:
 
 ```bash
-cd ~/development/lessons
+git clone https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-sqlalchemy-models-solution python-fastapi-sqlalchemy-relationships
+cd python-fastapi-sqlalchemy-relationships
 ```
 
-Make a new directory called **`sql-alchemy-data-relations`**, then enter this directory:
+### 2. Install dependencies:
 
-```bash
-mkdir sql-alchemy-data-relations
-cd sql-alchemy-data-relations
+This project uses `pipenv` for managing dependencies. To install everything the project needs, run:
+
+```sh
+ pipenv install
 ```
 
-You may continue working with your existing FastAPI app - or copy the contents of the `lesson-starter` folder into the new `sql-alchemy-data-relations` directory.
+### 3. Activate the virtual environment:
 
-Install the pipenv dependencies and start the development server
-
-```bash
-pipenv install
+```sh
+ pipenv shell
 ```
 
-If you are starting this module without an existing `teas_db` - run the following commands
+### 4. Set up the database:
+
+Set up your PostgreSQL database:
+
+- Ensure PostgreSQL is installed and running on your machine.
+- Create a database named `teas_db` if it does not already exist:
 
 ```bash
-# dropdb teas_db # use this command if db errors occur when attempting to seed
 createdb teas_db
+```
+
+Seed the database with data:
+
+- Run the `seed.py` file to reset the database by dropping existing tables and repopulating it with starter data:
+
+```bash
 pipenv run python seed.py
 ```
 
-Open the contents of the directory in VSCode:
+> You should see output indicating the database was successfully seeded. If there are any errors, check the `db_URI` in the `config/environment.py` file.
+
+### 5. Start the development server:
+
+```bash
+pipenv run uvicorn main:app --reload
+```
+
+> You should now have the app running. Visit [`http://127.0.0.1:8000`](http://127.0.0.1:8000) in your browser to confirm it’s working.
+
+Open the application in Visual Studio Code:
 
 ```bash
 code .
 ```
+
+### Notes on Configuration
+
+- The database connection string is defined in the `config/environment.py` file:
+
+  ```python
+  db_URI = "postgresql://postgres:postgres@localhost:5432/teas_db"
+  ```
+
+- Ensure your PostgreSQL instance is configured to allow connections with the provided credentials.
