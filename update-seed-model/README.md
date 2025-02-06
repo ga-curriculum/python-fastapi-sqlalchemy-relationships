@@ -47,9 +47,6 @@ The `seed.py` file is responsible for inserting data into the database. It clear
 ```py
 # seed.py
 from sqlalchemy.orm import Session, sessionmaker
-from models.base import Base
-from models.tea import TeaModel
-from models.comment import CommentModel
 from data.tea_data import teas_list, comments_list
 from config.environment import db_URI
 from sqlalchemy import create_engine
