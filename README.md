@@ -32,8 +32,6 @@ In this curriculum, you'll extend your knowledge of SQLAlchemy. First by explori
 
 ### Starter code
 
-If you have a complete, working application from the `Python FastAPI SQLAlchemy Models` Lesson, you may choose to use that codebase as starter code instead of the repo provided below.
-
 🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-sqlalchemy-models-solution)
 
 ### Solution code
