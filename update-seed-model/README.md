@@ -50,6 +50,7 @@ from sqlalchemy.orm import Session, sessionmaker
 from data.tea_data import teas_list, comments_list
 from config.environment import db_URI
 from sqlalchemy import create_engine
+from models.base import Base # import base model
 
 engine = create_engine(db_URI)
 SessionLocal = sessionmaker(bind=engine)
@@ -92,7 +93,7 @@ If everything is successful, you should see output indicating that the database 
 To confirm that the data has been inserted correctly, use the `psql` tool to query the database.
 
 ```sh
-psql -U postgres -d teas_db
+psql -d teas_db -U <username>
 ```
 
 ### Query the Tables
