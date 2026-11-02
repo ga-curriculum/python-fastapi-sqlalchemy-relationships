@@ -32,11 +32,11 @@ In this curriculum, you'll extend your knowledge of SQLAlchemy. First by explori
 
 ### Starter code
 
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-sqlalchemy-models-solution)
+🟢 [Starter code](https://github.com/ga-curriculum/python-fastapi-sqlalchemy-models-solution)
 
 ### Solution code
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-sqlalchemy-relationships-solution)
+🏁 [Solution code](https://github.com/ga-curriculum/python-fastapi-sqlalchemy-relationships-solution)
 
 ### Course landing pages
 
